@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bones</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="entrance_menu_settings">设置</string>
+    <string name="entrance_menu_start">开始游戏</string>
+    <string name="entrance_menu_quit">退出</string>
+    <string name="connect_menu_ltit">请选择要连接的玩家：</string>
+    <string name="connect_menu_licon">热点连接列表图标：</string>
+    <string name="ready_menu_host">房主：</string>
+    <string name="ready_menu_rule">规则：</string>
+    <string name="ready_menu_play">开始</string>
+    <string name="ready_menu_guest">等待玩家中</string>
+    <string name="end_menu_playagain">再玩一局</string>
+    <string name="end_menu_returnhome">返回</string>
+    <string name="waitforconn">等待玩家连接中</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ready_ready">准备</string>
+    <string name="ready_start">开始</string>
+</resources>

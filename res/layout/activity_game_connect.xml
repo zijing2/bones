@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+         android:layout_width="fill_parent"
+   		 android:layout_height="wrap_content"
+   		 android:layout_weight="1">
+
+    <TextView
+    	    android:id="@+id/wifi_text"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="40dip"
+    	    android:text="@string/connect_menu_ltit"
+    	    android:paddingTop="10dip"
+    	    android:textSize="20sp"
+    	    ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:gravity="center" >
+
+        <ListView
+            android:id="@+id/wifi_list"
+            android:layout_width="fill_parent"
+            android:layout_height="300dip"
+            android:drawSelectorOnTop="false"
+            android:scrollbars="vertical" >
+        </ListView>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/createHotLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="20dp" >
+
+        <Button
+            android:id="@+id/createHot"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="创建热点" >
+        </Button>
+
+        <Button
+            android:id="@+id/flashHot"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="刷新列表" />
+
+    </RelativeLayout>
+    
+</LinearLayout>
